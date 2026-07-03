@@ -1,0 +1,18 @@
+{
+  "name": "ethos-automation",
+  "version": "1.0.0",
+  "description": "Playwright automation for Ethos Life agent portal - downloads earnings/commission data, customer status, and policy activity for reconciliation with PolicyHQ",
+  "type": "module",
+  "scripts": {
+    "login": "node src/login.js",
+    "download-earnings": "node src/download-earnings.js",
+    "download-customers": "node src/download-customers.js",
+    "download-all": "node src/download-all.js",
+    "reconcile": "node src/reconcile.js"
+  },
+  "dependencies": {
+    "playwright": "^1.48.0",
+    "dotenv": "^16.4.0",
+    "csv-parse": "^5.5.0"
+  }
+}
