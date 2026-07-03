@@ -1,0 +1,19 @@
+# Environment
+.env
+node_modules/
+
+# Session state (contains auth cookies)
+auth-state/
+
+# Downloaded reports
+downloads/
+
+# Reconciliation output
+reconciliation-output/
+
+# Debug artifacts
+debug-screenshots/
+
+# OS files
+.DS_Store
+Thumbs.db

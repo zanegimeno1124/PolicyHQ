@@ -1,0 +1,19 @@
+{
+  "name": "mutual-of-omaha-automation",
+  "version": "1.0.0",
+  "description": "Playwright automation for Mutual of Omaha Sales Professional Access portal - downloads commission statements, chargeback notifications, and policy status reports",
+  "type": "module",
+  "scripts": {
+    "login": "node src/login.js",
+    "download-commissions": "node src/download-commissions.js",
+    "download-status": "node src/download-status-reports.js",
+    "download-all": "node src/download-all.js",
+    "reconcile": "node src/reconcile.js"
+  },
+  "dependencies": {
+    "playwright": "^1.48.0",
+    "dotenv": "^16.4.0",
+    "csv-parse": "^5.5.0",
+    "pdf-parse": "^1.1.1"
+  }
+}
