@@ -1,0 +1,8 @@
+.env
+node_modules/
+auth-state/
+downloads/
+reconciliation-output/
+debug-screenshots/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,18 @@
+{
+  "name": "transamerica-automation",
+  "version": "1.0.0",
+  "description": "Playwright automation for TransAmerica agent portals - downloads commission statements, pending business, policy status, and chargeback data for reconciliation with PolicyHQ",
+  "type": "module",
+  "scripts": {
+    "login": "node src/login.js",
+    "download-commissions": "node src/download-commissions.js",
+    "download-policies": "node src/download-policies.js",
+    "download-all": "node src/download-all.js",
+    "reconcile": "node src/reconcile.js"
+  },
+  "dependencies": {
+    "playwright": "^1.48.0",
+    "dotenv": "^16.4.0",
+    "csv-parse": "^5.5.0"
+  }
+}
